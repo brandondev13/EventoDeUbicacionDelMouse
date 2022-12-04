@@ -7,14 +7,12 @@ body {
     background-color: darkblue;
     color: white;
     font-family: cursive;
-
 }
 
 .container {
     display: flex;
     text-align: center;
 }
-
 
 .mouse-event {
     border: solid 1px lightgray;
@@ -26,8 +24,6 @@ body {
     align-items: center;
     display: flex;
     font-size: 30px;
-
-
 }
 
 .mouse-event h4{
@@ -39,18 +35,12 @@ body {
     white-space: nowrap;
     font-weight: 100;
     color: lightgray;
-
-
-
 }
-
-
 
 @media (max-width: 500px) {
     .container {
         flex-direction: column
     }
-
 }
 
 
